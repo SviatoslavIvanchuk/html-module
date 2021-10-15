@@ -1,0 +1,18 @@
+body {
+    background: silver;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,25 @@
+.tabl1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: gray;
+    height: 200px;
+    width: 50%;
+    padding: 10px;
+    margin: 30px;
+    border: 5px solid dimgray;
+    border-radius: 5%;
+}
+
+.tabl2 {
+    background: gray;
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 1%;
+    border: 5px solid dimgray;
+}
+img {
+    width: 30%;
+}
