@@ -1,0 +1,35 @@
+.header {
+    background: #0132ab;
+    width: 1280px;
+    height: 100px;
+}
+
+.nav {
+    background: #22c8cb;
+    width: 1280px;
+    height: 120px;
+}
+
+.center {
+    width: 1280px;
+    height: 600px;
+    display: flex;
+}
+.main {
+    background: #57c27e;
+    flex-grow: 3;
+}
+
+.aside {
+    background: #6cd2b0;
+    flex-grow: 1;
+}
+
+.footer {
+    background: #4d01ab;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

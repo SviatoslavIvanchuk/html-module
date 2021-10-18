@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 80px;
+    background: #6cd2b0;
+    height: 500px;
+    width: 300px;
+    border: 2px solid grey;
+    padding: 20px;
+}
+img {
+    height: 80%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    margin-right: 200px;
+    color: #33adad;
+}
+li {
+    list-style-type: none;
+    height: 40px;
+    font-size: 25px;
+}
+
+.card:hover {
+    background: orange;
+}

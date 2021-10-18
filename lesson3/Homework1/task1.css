@@ -1,0 +1,27 @@
+.task1 {
+    background: gray;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+.boxA {
+    background: aqua;
+    height: 40%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.boxBC {
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+.boxB {
+    background: #57c27e;
+    height: 55%;
+    width: 60%;
+}
+.boxC {
+    background: #6cd2b0;
+    height: 55%;
+    width: 35%;
+}

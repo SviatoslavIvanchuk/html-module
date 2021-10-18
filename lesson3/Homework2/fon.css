@@ -1,0 +1,52 @@
+body {
+    background: #cec3c3;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2a1d1d;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+}
+.menu {
+    background: #57c27e;
+    height: 100%;
+    width: 18%;
+    min-width: 200px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 95px;
+    box-shadow: 10px -20px 20px grey;
+}
+.tabl {
+    height: 100%;
+    width: 80%;
+    margin-left: 275px;
+    margin-top: 95px;
+    box-sizing: border-box;
+    justify-content: right;
+}
+.tabl1 {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.menu > ul > li > a:hover {
+    color: white;
+    padding-left: 15px;
+    -webkit-transition: color .5s ease, padding .5s ease;
+}
+
