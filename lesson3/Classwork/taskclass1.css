@@ -1,0 +1,49 @@
+.one {
+    justify-content: center;
+    border: 5px solid grey;
+    border-radius: 1%;
+    background: silver;
+    box-sizing: border-box;
+}
+
+.box {
+    background: #eeeaea;
+    height: 800px;
+    width: 1200px;
+    padding: 1%;
+    align-items: center;
+}
+
+.boxA {
+    height: 25%;
+    width: 99%;
+    margin: 2px;
+    align-items: center;
+}
+.boxB {
+    margin-top: 10px;
+    height: 45%;
+    width: 98%;
+}
+.boxC {
+    height: 98%;
+    width: 30%;
+}
+.boxF {
+    flex-grow: 1;
+}
+
+.five {
+    display: flex;
+    height: 75%;
+    width: 99%;
+}
+.boxCDE {
+    margin-top: 10px;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.four {
+    flex-grow: 3;
+}

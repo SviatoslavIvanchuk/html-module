@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabl {
+    height: 1000px;
+    width: 600px;
+}
+.tabl1 {
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+.home {
+    background: #0132ab;
+    height: 100%;
+    width: 48%;
+}
+
+.kabobs {
+    background: #0132ab;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.tabl2 {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    width: 100%;
+}
+.skab {
+    background: #0132ab;
+    height: 90%;
+    width: 30%;
+}
