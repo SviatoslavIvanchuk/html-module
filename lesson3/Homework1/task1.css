@@ -1,27 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
 .task1 {
     background: gray;
     width: 600px;
     height: 400px;
-    padding: 10px;
+    padding: 30px;
 }
 .boxA {
     background: aqua;
     height: 40%;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 4%;
 }
 .boxBC {
     height: 55%;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .boxB {
     background: #57c27e;
-    height: 55%;
+    height: 100%;
     width: 60%;
 }
 .boxC {
     background: #6cd2b0;
-    height: 55%;
+    height: 100%;
     width: 35%;
 }
