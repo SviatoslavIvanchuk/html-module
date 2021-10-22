@@ -1,0 +1,60 @@
+.top__header {
+
+}
+
+.top__content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.top__content__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 125px;
+}
+
+.bottom__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+.bottom__card:hover {
+    border: 2px solid aqua;
+}
+
+.height100 {
+    height: 100px;
+}
+.width100px {
+    width: 100px;
+}
+
+.width120px {
+    width: 120px;
+}
+
+.bg__color {
+    background: #1a3b46;
+}
+.bg__color__round {
+    background: #bbc3c5;
+}
+.box__radius {
+    border-radius: 10px;
+}
+
+.card__radius {
+    border-radius: 50%;
+}
