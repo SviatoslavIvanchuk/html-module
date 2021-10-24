@@ -1,0 +1,21 @@
+@media screen and (max-width: 850px) {
+    .sector6__bottom__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .sector2__lines {
+        display: none;
+    }
+
+    .sector2__nav_button {
+        display: flex;
+    }
+
+    .sector2 button {
+        display: block;
+    }
+}
