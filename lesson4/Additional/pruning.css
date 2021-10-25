@@ -1,0 +1,50 @@
+hr.work {display: none}
+.br50 {
+    border-radius: 50%;
+}
+.df {
+    display: flex;
+}
+.column-gap {
+    column-gap: 20px;
+}
+.jc-c {
+    justify-content: space-evenly;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.height40 {height: 40px;}
+
+.width120 {width: 120px}
+
+button {border-radius: 20px; background: #1749c7}
+
+
+.height100 {height: 100px;}
+.width100 {width: 100px;}
+.br10px {border-radius: 10px;}
+
+.bg_silver {background: silver}
+.bg_blue {background: #1749c7}
+.color-blue {
+ color: #0132ab;
+}
+.width220 {height: 220px;}
+
+.text-align {
+    text-align: center;
+}
+
+.bg-none {
+    background: none;
+}
+
+h6.r_sector6 {
+    font-size: 65%;
+}
+p.r_sector6 {font-size: 60%}
+li{font-size: 50%; list-style-type: none}
+
