@@ -1,0 +1,91 @@
+body {margin: 0;}
+
+
+.fon {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    padding: 5vh 20vh 5vh;
+    background: url("image/fon.jpg") no-repeat center/cover;
+
+}
+
+.content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px;
+}
+
+.name {
+    height: 80px;
+    width: auto;
+    border-right: 2px solid blue;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    column-gap: 20px;
+}
+.menu span {margin: 5px; color: blue}
+.menu__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+}
+.menu__items:hover {
+    -webkit-transform: scale(1.2);
+}
+
+img {height: 100%;}
+.card {
+    display: flex;
+    height: 400px;
+    width: 750px;
+    margin-top: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: url("image/card.png") no-repeat center/cover;
+}
+
+.card-phone {
+    display: none;
+    height: 750px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 40px 40px 40px 60px;
+    box-sizing: border-box;
+    background: url("image/card_phone.png") no-repeat center/cover;
+}
+
+.about__card_content {
+    display: flex;
+    height: auto;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.about-photo {height: 200px;}
+
+.about-welcome {height: 50px}
+.services-img {height: 50px}
+
+.about__card_content-phone {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}

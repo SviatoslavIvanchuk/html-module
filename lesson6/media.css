@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px){
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {height: 50px;
+        border-bottom: 2px solid blue;
+        border-right: none;
+        margin: 0;
+    }
+    .menu {
+        margin-top: 20px;
+    }
+
+    .fon {
+        height: 120vh;
+    }
+    .card {display: none}
+    .card-phone {
+        display: flex;
+    }
+    .about-info {margin-top: 40px; width: auto}
+    .about-welcome {height: 80px}
+    .about-photo {width: 80%}
+
+    .fon {height: auto;}
+}
+
+@media screen and (max-width: 420px){
+    .name {height: 40px}
+    .menu__items {height: 30px}
+
+    .card-phone {height: auto; width: 270px;}
+    .about-photo {height: 150px; width: 80%}
+    .card-phone {
+        padding: 30px;
+    }
+
+}
