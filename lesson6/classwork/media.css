@@ -1,0 +1,72 @@
+@media screen and (max-width: 1300px){
+    .history__top {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .menu-contact {
+        flex-direction: column-reverse;
+    }
+    .header__top .menu {
+        border-right: none;
+        border-top: 2px solid #ffffff;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    .history__top {margin-top: 800px}
+}
+
+@media screen and (max-width: 1000px){
+    body {justify-content: center}
+    .header__top .menu {display: none}
+    .header__top .contact {display: none}
+    .header__top button {display: none}
+    .header__top button.nav__menu {display: block}
+    .header__top .menu-contact{display: none}
+
+    .header__main {top: 20vh; left: 4vh; width: 280px; height: auto}
+    .header__main h2 {font-size: 25px; line-height: 40px}
+    .header__main h1 {font-size: 40px; line-height: 60px}
+    .header__intro {left: 15%}
+
+    .history__top {flex-direction: column; margin-left: 40px}
+    .offers__content {flex-direction: column}
+}
+
+@media screen and (max-width: 380px){
+    .header__intro {left: 10px}
+
+    .history {margin-top: 550px; width: 90%}
+    .history__top {width: 300px}
+    .history__top-text {height: auto; width: 300px}
+    .history__top-photo {width: 300px}
+    .history__top-photo .img-one {width: 30%; right: 40px; top: 50px; z-index: 1}
+    .history__top-photo .img-two {width: 35%; right: 60px; top: 20px; z-index: 3}
+    .history__top-photo .img-left {width: 35%; left: 60px; top: 60px; z-index: 9}
+    .history__top-photo .img-right {width: 35%; left: 180px; bottom: 160px; z-index: 7}
+    .history__bottom {flex-direction: column; width: 90%; height: auto; padding: 15px 33px;}
+    .history__bottom-text {width: 300px; height: auto;}
+
+    .offers {width: 300px; height: auto; margin: 0; padding: 10px}
+    .offers__content {flex-direction: column; row-gap: 20px}
+    .offers img {width: 50vh; margin-left: 30px}
+    .offers .offer__list span {display: none}
+    .offers .offer__list .offer__list-phone {display: block}
+    .offers .offer__list p {display: block;}
+    .offers .offers__list img {width: 30%}
+    .offers__list {row-gap: 20px}
+    .offer__list {column-gap: 20px}
+    .offer__list span {font-size: 16px}
+
+    .menu__center {padding: 20px 20px}
+    .menu__center-cards {flex-direction: column; row-gap: 40px}
+    .menu-card {height: auto; padding: 20px; }
+
+    .respond {padding: 10px; height: auto}
+
+    .galary img {width: 95%}
+
+    .cooks img {padding-left: 10px; width: 95%; box-sizing: border-box}
+    }
+

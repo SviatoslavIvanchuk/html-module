@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px){
+    .header__bottom-left img {width: 340px}
+    .footer__top, .footer__bottom {
+        flex-direction: column;
+    }
+    .vorteile__bottom {width: 360px}
+    .vorteile__bottom h2 {
+        width: 320px;
+    }
+    .bilder {width: 360px}
+    .bilder-img {width: 340px}
+}
