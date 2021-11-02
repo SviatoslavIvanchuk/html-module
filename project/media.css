@@ -1,0 +1,209 @@
+@media screen and (max-width: 1200px){
+    .header .header-content .col-xl-7 {
+        display: none;
+    }
+    .header .header-content .col-xl-7.header-more {
+        display: flex;
+        height: 36px;
+        width: auto;
+        align-items: center;
+    }
+    .header .col-xl-1 .dropdown-menu {
+        display: flex;
+    }
+
+
+    /*--------------Menu-------------*/
+
+    .menu__top {width: 768px}
+
+    .menu__top-time-address,
+    .menu__top-contacts {flex-direction: column-reverse; row-gap: 20px}
+
+    .menu__bottom {width: 768px}
+    .menu__bottom .navbar form input {width: 200px}
+
+
+
+    /*---------------Content---------------------*/
+
+    .content__header {width: 768px}
+    .content__header-big-carousel {width: 500px; height: 320px}
+    .content__header-big-carousel .carousel-inner img.bgcarousel {height: 320px;}
+    .big-carousel-content {width: 480px;height: 280px; left: 60px; top: 60px}
+    .content .big-carousel-content-left h2 {font-size: 20px; line-height: 24px}
+    .content .big-carousel-content-left p {font-size: 14px; line-height: 16px}
+    .content .big-carousel-content-left h3 {font-size: 21px; line-height: 25px}
+    .content .big-carousel-content-left h3 span {font-size: 12px; line-height: 14px}
+    .big-carousel-content-right img {width: 180px}
+    .sale__card {width: 250px; height: 150px}
+    .carousel-control-prev, .carousel-control-next {z-index: 4}
+
+    .content__header .sale__card h2 {margin: 0}
+    .content__header .sale__card-content-left img {width: 80%}
+    .content__header .sale__card-content-right h2 {font-size: 12px; line-height: 15px}
+    .content__header .sale__card-content-right p {font-size: 10px; line-height: 11px}
+    .content__header .sale__card-content-right h3 {font-size: 14px; line-height: 16px}
+    .content__header .sale__card-content-right h3 span {font-size: 12px; line-height: 13px}
+    .content__header .sale__card-content-right h3 button {width: 60px; height: 30px}
+    .content__header .sale__card-content-right h3 .btn-primary {padding: 0}
+
+    .content__center {width: 760px}
+
+    .content__bottom {width: 768px}
+    .content__bottom__cards {justify-content: center}
+
+    /*----------------News-------------------*/
+
+    .news {}
+    .news__bar h2 {width: 740px}
+    .mobile768 {display: none}
+    .news__content {width: 760px}
+
+
+    /*----------------Footer----------------*/
+
+    .footer {padding: 36px 0 64px 20px}
+    .footer__content {width: 760px; flex-direction: column; row-gap: 60px}
+    .footer__information {column-gap: 100px}
+    .footer__contacts {column-gap: 100px; margin-bottom: 40px}
+    .footer .footer__search form input {width: 250px}
+    .footer__content::before {bottom: -33px; left: 300px}
+}
+
+
+/*--------------------------------Max-Width-760px--------------------------------*/
+
+
+@media screen and (max-width: 760px){
+
+    .header .header-info {display: none}
+
+
+    /*--------------Menu-------------*/
+
+    .menu__top {width: 576px; justify-content: space-evenly}
+    .menu__top-time-address {display: none}
+
+    .menu__bottom {width: 576px; justify-content: center}
+    .menu__bottom-nav {display: none}
+
+    /*-----------Content------------*/
+
+    .content__header {
+        width: 550px;
+        flex-direction: column;
+        row-gap: 15px;
+        height: auto;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .content__header-sale {flex-direction: row; column-gap: 15px}
+
+    .content__center {width: 560px}
+
+    .content__bottom {width: 560px}
+    .content__bottom__cards {justify-content: center}
+
+    /*----------------News-------------------*/
+
+    .news {}
+    .news__bar h2 {width: 560px}
+    .mobile576 {display: none}
+    .news__content {width: 540px}
+
+
+    /*----------------Footer----------------*/
+
+    .footer {padding: 36px 0 64px 20px}
+    .footer__content {width: 550px; flex-direction: column; row-gap: 60px}
+    .footer__information {width: 550px; flex-direction: column; row-gap: 40px}
+    .footer__contacts {flex-direction: column; row-gap: 40px; margin-bottom: 40px}
+    .footer .footer__search form input {width: 250px}
+    .footer__content::before {bottom: -33px; left: 180px}
+    .footer .footer__info {width: 550px}
+
+    .fixed-bottom.menu-nav {display: flex}
+}
+
+
+
+/*------------------------Max-Width-575px-----------------------*/
+
+
+@media screen and (max-width: 575px){
+
+
+    /*--------------Menu-------------*/
+
+    .menu__top {width: 320px; justify-content: center; column-gap: 10px}
+
+    .menu__top-time-address,
+    .menu__top-contacts {flex-direction: column-reverse; row-gap: 20px}
+    .menu__top-viber p {font-size: 10px; line-height: 11px; width: 120px}
+    .menu__top-viber img {width: 20px; margin: 0}
+
+
+    .menu__bottom {width: 315px}
+    .menu__bottom .navbar form input {width: 150px}
+
+    .menu__top-logo img {width: 50px; height: 55px}
+    .menu__top-logo-text h2 {font-size: 16px; line-height: 18px}
+    .menu__top-logo-text p {font-size: 10px; line-height: 11px}
+
+    .menu__top-number h2 {font-size: 16px; line-height: 18px}
+    .menu__bottom .navbar form button span {display: none}
+
+
+    /*---------------Content---------------------*/
+
+    .content__header {width: 310px;margin: 4px}
+    .content__header-big-carousel {width: 310px; height: 200px}
+    .content__header-big-carousel .carousel-inner img.bgcarousel {height: 200px;}
+    .big-carousel-content {width: 260px; height: 150px; left: 30px; top: 30px}
+    .content .big-carousel-content-left h2 {font-size: 16px; line-height: 18px}
+    .content .big-carousel-content-left p {font-size: 10px; line-height: 12px}
+    .content .big-carousel-content-left h3 {font-size: 18px; line-height: 20px; margin: 10px 0;}
+    .content .big-carousel-content-left h3 span {font-size: 7px; line-height: 8px}
+    .big-carousel-content-right img {width: 90px}
+    .sale__card {width: 250px; height: 150px}
+    .carousel-control-prev, .carousel-control-next {z-index: 4}
+    .content__header-big-carousel .carousel-inner .big-carousel-content-left button
+                                            {width: 160px; height: 40px}
+
+    .content__header-sale-carousel {display: block}
+    .content__header-sale {display: none}
+
+
+    .content__header .sale__card h2 {margin: 0}
+    .content__header .sale__card-content-left img {width: 80%}
+    .content__header .sale__card-content-right h2 {font-size: 12px; line-height: 15px}
+    .content__header .sale__card-content-right p {font-size: 10px; line-height: 11px}
+    .content__header .sale__card-content-right h3 {font-size: 14px; line-height: 16px}
+    .content__header .sale__card-content-right h3 span {font-size: 12px; line-height: 13px}
+    .content__header .sale__card-content-right h3 button {width: 60px; height: 30px}
+    .content__header .sale__card-content-right h3 .btn-primary {padding: 0}
+
+    .content__center {width: 310px}
+
+    .content__bottom {width: 310px}
+    .content__bottom__cards {justify-content: center}
+
+    /*----------------News-------------------*/
+
+    .news {}
+    .news__bar h2 {width: 310px}
+    .news__content {width: 310px}
+
+
+    /*----------------Footer----------------*/
+
+    .footer {padding: 36px 0 90px 8px}
+    .footer__content {width: 310px; flex-direction: column; row-gap: 60px}
+    .footer__information {width: 310px; column-gap: 100px}
+    .footer__contacts {column-gap: 100px; margin-bottom: 40px}
+    .footer .footer__search form input {width: 150px}
+    .footer .footer__info {width: 310px}
+    .footer__content::before {bottom: -33px; left: 10px}
+}
